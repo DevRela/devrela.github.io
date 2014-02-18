@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN">
+	<head>
+<script type="text/javascript">
+    var _speedMark = new Date();
+</script>
+		<meta charset="UTF-8" />
+		<title>{% if page.title %}
+                {{ page.title }}
+            {% else %} 
+                {{ site.title }} 
+            {% endif %}
+            | DevRel | 开发者关系.思考</title>
+
+		<meta name="description" content="开发者关系管理/社区管理相关思考,不定期发布技术活动消息/评论/回顾..." />
+		<meta name="keywords" content="Liebao Developer Relation Management" />
+		<meta name="author" content="DRM4KN" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="profile" href="http://resume.github.com/?ZoomQuiet" />
+		<link rel="stylesheet" type="text/css" media="all" href="/static/css/style.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/static/css/highlight.css" />
+		<meta name="generator" content="jekyll" />
+
+
+	</head>
+	<body itemscope itemtype="http://schema.org/WebPage" class="home blog lost index">
+		<section class="lost-logo fn-clear">
+		<span class="alignleft">
+  			<img class="violet-logo" src="/static/images/logo.png"/>
+			<hgroup class="violet-site">	
+        		<h1><a href="/" ret="bootmark">DevRel</a><span>.info</span></h1>
+        		<h2>too simple, sometimes naïve.</h2>
+     		</hgroup><!-- //violet-site -->	
+		</span>
+		<span class="alignright">
+  			<span><a href="/" title="首页" rev="bootmark"><i class="icon-home"></i>首页</a></span>
+  			<span><a href="/archives.html" rev="bootmark">归档</a></span>
+  			<span><a href="/categories.html" rev="bootmark">分类</a></span>
+  			<span><a href="/tags.html" rev="bootmark">标签</a></span>
+  			<span><a href="/about.html" rev="bootmark">关于</a></span>   
+			<span><a href="/atom.xml" rev="bookmark">RSS</a></span>
+		</span>
+		</section>
+
+		{{ content }}
+
+		<footer class="lost-footer">
+		<div>
+<!-- Custom Search -->
+<script>
+  (function() {
+    var cx = '011275554785324936933:wpdxfi4urwc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+    		<hr/>
+    		<span class="alignleft">
+       		<a href="/" title="{{ site.title }}"><i class="icon-home"></i>首页</a> &brvbar; 
+      	 	<a href="/atom.xml"><i class="icon-rss"></i>RSS</a> 
+    		</span>
+    		<span class="alignright"> &copy <a href="/about.html">DevRel.info</a>
+                | Theme by <a href="http://shawhu.org/about.html">signifox</a>
+                | Powered by 
+                <a href="https://github.com">github</a>
+                ;<a href="http://git-scm.com/">git</a>
+                ;<a href="http://daringfireball.net/projects/markdown/">Md</a>
+                ;<a href="https://github.com/mojombo/jekyll">Jekyll </a>
+<br/>
+{% include icp.md %}
+
+            </span>
+<!-- 将此标记放置在您希望显示徽章的位置。 -->
+<div class="g-plus" data-height="69" data-href="//plus.google.com/117158502155411796931" data-rel="publisher"></div>
+
+<!-- 将此标记放置在最后一个 徽章 标记之后。 -->
+
+<script type="text/javascript">
+  window.___gcfg = {lang: 'zh-CN'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+		</div>
+		</footer>
+        <script src="/static/js/jquery.js" type="text/javascript"></script>
+        <!--[if lt IE 9]>
+        <script src="/static/js/html5.js" type="text/javascript"></script>
+        <![endif]-->
+
+		<script src="/static/js/jquery.scrollTo.js" type="text/javascript"></script>
+		<script src="/static/js/Lost.js" type="text/javascript"></script>
+
+<!-- FOR v2.ta.qq.com -->
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=30566700" charset="UTF-8"></script>
+
+	</body>
+</html>

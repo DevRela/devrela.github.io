@@ -1,0 +1,13 @@
+root: /
+permalink: /:year-:month/:title/
+markdown: rdiscount
+pygments: true
+
+paginate: 1
+
+title: think in RevRel
+author: DRM4KN
+email: "support@devrel.info"
+
+exclude:
+  - README.md
