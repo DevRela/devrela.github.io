@@ -1,13 +1,18 @@
 root: /
 permalink: /:year-:month/:title/
 markdown: kramdown
-pygments: true
 
 paginate: 1
+paginate_path: '/page:num'
+
+gems:
+  - jekyll-archives
+  - jekyll-paginate
+
+exclude:
+  - README.md
 
 title: think in RevRel
 author: DRM4KN
 email: "support@devrel.info"
 
-exclude:
-  - README.md
