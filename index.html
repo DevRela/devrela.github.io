@@ -11,7 +11,14 @@ type: post
 
 		<h4 class="main-excerpt-title"><a href="{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a></h4>
 
-		{{ post.content }}
+		{{ post.content | split:'<!--more-->' |first }}
+
+		<p class="more">
+<a href="{{ post.url }}" title="阅读更多" rel="nofollow"
+	class="btn btn-info btn-sm" role="button">
+<span>&#10149;</span>
+	 ... 阅读更多</a>
+		</p>
 
 		<p class="date">
 		<i class="icon-calendar"></i>{{  post.date| date: "%Y-%m-%d"  }} &nbsp;
@@ -28,8 +35,6 @@ type: post
 	<!--
 	<p>{{ post.description }}</p>
 	-->
-		<p class="more">
-			<a href="{{ post.url }}" title="阅读更多" rel="nofollow"><span>&#10149;</span>阅读更多</a></p>
 
 	</article>
 	{% endfor %}
