@@ -2,7 +2,7 @@ root: /
 permalink: /:year-:month/:title/
 markdown: kramdown
 
-paginate: 1
+paginate: 4
 paginate_path: '/page:num'
 
 gems:
@@ -12,7 +12,9 @@ gems:
 exclude:
   - README.md
 
-title: think in RevRel
-author: DRM4KN
-email: "support@devrel.info"
+title: think in DevRel
+author: DAMADAMA
+email: "zoomquiet+devrel@gmail.com"
+
+
 
