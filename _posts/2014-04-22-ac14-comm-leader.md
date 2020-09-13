@@ -38,8 +38,8 @@ OSTC 圆桌引发的一个大问题:
 - 为什么 ~ 只追原因,并没有要求给出解决方案,不过, 一但根因分析清楚了,对策也就呼之欲出了
 - 中国的 ~ 共识的大背景,关键词: GFW,网民,版权意识,高校体制,企业生存环境...
 - 领导者 ~ 这个是题眼了,参考:
-    - [关 乎社群:9 什么是社区经理?](http://devrel.info/2014-03/ac9-comm-manager/)
-    - [关 乎社群:8 什么是社区大妈?](http://devrel.info/2014-03/ac8-comm-dama/)
+    - [关 乎社群:9 什么是社区经理?](http://devrel.101.camp/2014-03/ac9-comm-manager/)
+    - [关 乎社群:8 什么是社区大妈?](http://devrel.101.camp/2014-03/ac8-comm-dama/)
     - 容后再议
 - 少 ~ 这基本就是主观断言了
     - 首先什么是少?
@@ -107,9 +107,9 @@ OSTC 圆桌引发的一个大问题:
 但是,各种叫嚣的新人的动机就比较复杂了,先不深入分析,必须这种事儿,得罪人太多,
 大家真心有兴趣的话,请参考:
 
-- [关 乎社群:10 什么是喷子?](http://devrel.info/2014-03/ac10-comm-sprayer/)
-- [关 乎社群:11 什么是伸手党](http://devrel.info/2014-03/ac11-comm-beggar/)
-- [关 乎社群:12 什么是Troll?](http://devrel.info/2014-03/ac12-comm-troll/)
+- [关 乎社群:10 什么是喷子?](http://devrel.101.camp/2014-03/ac10-comm-sprayer/)
+- [关 乎社群:11 什么是伸手党](http://devrel.101.camp/2014-03/ac11-comm-beggar/)
+- [关 乎社群:12 什么是Troll?](http://devrel.101.camp/2014-03/ac12-comm-troll/)
 
 
 ## 是也乎
